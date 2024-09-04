@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=45", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aishell"
+version = "0.1.0"
+authors = [
+    {name = "Jonathan Chang", email = "31893406+cccntu@users.noreply.github.com"},
+]
+description = "A shell wrapper for building context-aware tools"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.scripts]
+aishell = "aishell.main:main"
+aishell-print = "aishell.print:main"
+aishell-get-screen = "aishell.get_screen:main"
+aishell-help = "aishell.aishell_help:main"
+aishell-quick-help = "aishell.aishell_help:quick_help"
+
+[project.urls]
+"Homepage" = "https://github.com/cccntu/aishell"
