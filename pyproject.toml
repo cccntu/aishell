@@ -3,7 +3,7 @@ requires = ["setuptools>=45", "setuptools_scm[toml]>=6.2"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "aishell"
+name = "aishell-tools"
 version = "0.1.0"
 authors = [
     {name = "Jonathan Chang", email = "31893406+cccntu@users.noreply.github.com"},

@@ -15,6 +15,13 @@ AIShell is a transparent shell wrapper that allows you to build context-aware to
 
 ## Installation
 
+
+```
+pip install pip install aishell-tools
+```
+
+or 
+
 ```
 git clone https://github.com/cccntu/aishell.git
 cd aishell
